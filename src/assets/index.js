@@ -33,6 +33,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import einstein from "./Einstein.png";
+import emma from "./CurseOfEmma.png";
+import converter from "./EcoConverter.png";
 
 export {
   logo,
@@ -63,6 +66,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  einstein,
+  emma,
+  converter,
   python,
   django,
   elephant,
