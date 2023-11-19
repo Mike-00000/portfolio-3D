@@ -36,6 +36,10 @@ import {
   tripguide,
   threejs,
   logo,
+  javascriptjs,
+  node,
+  react,
+  tailwindcss,
 } from "../assets";
 
 export const navLinks = [
@@ -83,7 +87,7 @@ const technologies = [
   },
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: javascriptjs,
   },
   // {
   //   name: "TypeScript",
@@ -91,7 +95,7 @@ const technologies = [
   // },
   {
     name: "React JS",
-    icon: reactjs,
+    icon: react,
   },
   // {
   //   name: "Redux Toolkit",
@@ -99,11 +103,11 @@ const technologies = [
   // },
   {
     name: "Tailwind CSS",
-    icon: tailwind,
+    icon: tailwindcss,
   },
   {
     name: "Node JS",
-    icon: nodejs,
+    icon: node,
   },
   // {
   //   name: "MongoDB",
