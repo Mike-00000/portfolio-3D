@@ -40,6 +40,8 @@ import {
   node,
   react,
   tailwindcss,
+  polygon,
+  threew,
 } from "../assets";
 
 export const navLinks = [
@@ -115,7 +117,7 @@ const technologies = [
   // },
   {
     name: "Three JS",
-    icon: threejs,
+    icon: threew,
   },
   // {
   //   name: "git",
@@ -171,7 +173,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2013 - August 2021",
     points: [
-      "Drove the company&#39;s commercial growth through effective business development strategies.",
+      "Drove the company's commercial growth through effective business development strategies.",
       "Managed both commercial and administrative aspects, ensuring smooth operations.",
       "Led and motivated the sales team, contributing to their professional development and achieving targets.",
     ],

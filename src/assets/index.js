@@ -25,6 +25,7 @@ import tailwindcss from "./tech/tailwind-css.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import three from "./tech/three.png";
+import threew from "./tech/threew.png";
 import python from "./tech/python.png";
 import django from "./tech/django.png";
 import elephant from "./tech/elephant.png";
@@ -38,7 +39,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import polygon from "./tech/polygon2.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -73,6 +74,7 @@ export {
   typescript,
   threejs,
   three,
+  threew,
   meta,
   shopify,
   starbucks,
@@ -92,4 +94,5 @@ export {
   css3,
   html55,
   css33,
+  polygon,
 };
