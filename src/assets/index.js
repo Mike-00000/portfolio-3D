@@ -25,6 +25,10 @@ import django from "./tech/django.png";
 import elephant from "./tech/elephant.png";
 import bootstrap from "./tech/bootstrap.png";
 import flstudio from "./tech/flstudio.png";
+import html5 from "./tech/html5.png";
+import css3 from "./tech/css3.png";
+import html55 from "./tech/html55.png";
+import css33 from "./tech/css33.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -74,4 +78,8 @@ export {
   elephant,
   bootstrap,
   flstudio,
+  html5,
+  css3,
+  html55,
+  css33,
 };

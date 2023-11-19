@@ -126,6 +126,15 @@
   transform: translateZ(0);
 }
 
+.computer-2d-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 270px;
+  width: 65%; /* Ajustez la largeur selon vos besoins */
+  height: auto; /* Pour maintenir le ratio d'aspect */
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

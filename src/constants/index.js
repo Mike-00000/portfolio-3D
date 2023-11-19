@@ -7,6 +7,10 @@ import {
   typescript,
   html,
   css,
+  html5,
+  css3,
+  html55,
+  css33,
   reactjs,
   redux,
   tailwind,
@@ -31,6 +35,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  logo,
 } from "../assets";
 
 export const navLinks = [
@@ -70,11 +75,11 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: html55,
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: css33,
   },
   {
     name: "JavaScript",
@@ -146,7 +151,7 @@ const experiences = [
   {
     title: "Polyvalent worker",
     company_name: "Saveurs & Délices",
-    icon: starbucks,
+    icon: logo,
     iconBg: "#383E56",
     date: "April 2022 - January 2023",
     points: [
@@ -158,7 +163,7 @@ const experiences = [
   {
     title: "Business Development Manager",
     company_name: "Adiscos",
-    icon: starbucks,
+    icon: logo,
     iconBg: "#383E56",
     date: "July 2013 - August 2021",
     points: [
@@ -170,7 +175,7 @@ const experiences = [
   {
     title: "Financial Products Advisor",
     company_name: "Aviva",
-    icon: starbucks,
+    icon: logo,
     iconBg: "#383E56",
     date: "March 2012 - June 2013",
     points: [
@@ -182,7 +187,7 @@ const experiences = [
   {
     title: "Sales Manager",
     company_name: "Santeo",
-    icon: starbucks,
+    icon: logo,
     iconBg: "#383E56",
     date: "September 2009 - March 2012",
     points: [
