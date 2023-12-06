@@ -11,7 +11,7 @@ const Tech = () => {
       {technologies.map((technology) => (
         <div className="w-28 h-28 flex justify-center items-center" key={technology.name}>
           {isMobile ? 
-            <img src={technology.icon} alt={technology.name} />
+            <img src={technology.icon} alt={technology.name} className="tech-icon" />
             : 
             <BallCanvas icon={technology.icon} />
           }

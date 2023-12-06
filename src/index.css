@@ -135,6 +135,14 @@
   height: auto; /* Pour maintenir le ratio d'aspect */
 }
 
+@media (max-width: 500px) {
+  .tech-icon {
+    /* Styles pour ajuster les icônes sur mobile */
+    width: 70%;
+    height: auto;
+  }
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

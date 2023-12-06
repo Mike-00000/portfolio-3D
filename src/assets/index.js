@@ -46,6 +46,7 @@ import tripguide from "./tripguide.png";
 import einstein from "./Einstein.png";
 import emma from "./CurseOfEmma.png";
 import converter from "./EcoConverter.png";
+import authorg from "./authprint.JPG";
 
 export {
   logo,
@@ -85,6 +86,7 @@ export {
   einstein,
   emma,
   converter,
+  authorg,
   python,
   django,
   elephant,

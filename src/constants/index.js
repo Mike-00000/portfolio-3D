@@ -32,6 +32,7 @@ import {
   einstein,
   emma,
   converter,
+  authorg,
   jobit,
   tripguide,
   threejs,
@@ -156,7 +157,7 @@ const technologies = [
 const experiences = [
   {
     title: "Polyvalent worker",
-    company_name: "Saveurs & Délices",
+    company_name: "Saveurs & Délices (Netanya)",
     icon: logo,
     iconBg: "#383E56",
     date: "April 2022 - January 2023",
@@ -168,7 +169,7 @@ const experiences = [
   },
   {
     title: "Business Development Manager",
-    company_name: "Adiscos",
+    company_name: "Adiscos (Paris)",
     icon: logo,
     iconBg: "#383E56",
     date: "July 2013 - August 2021",
@@ -180,7 +181,7 @@ const experiences = [
   },
   {
     title: "Financial Products Advisor",
-    company_name: "Aviva",
+    company_name: "Aviva (Paris)",
     icon: logo,
     iconBg: "#383E56",
     date: "March 2012 - June 2013",
@@ -192,7 +193,7 @@ const experiences = [
   },
   {
     title: "Sales Manager",
-    company_name: "Santeo",
+    company_name: "Santeo (Paris)",
     icon: logo,
     iconBg: "#383E56",
     date: "September 2009 - March 2012",
@@ -322,25 +323,50 @@ const projects = [
     image: emma,
     source_code_link: "https://github.com/",
   },
+  // {
+  //   name: "Eco-Converter",
+  //   description:
+  //     "Eco-Converter is an tool that employs a variety of everyday life conversion units. Designed to engage and enlighten, it aims to raise awareness about the importance of conserving water by illustrating how everyday activities impact water usage.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Vanilla JavaScript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: converter,
+  //   source_code_link: "https://github.com/",
+  // },
   {
-    name: "Eco-Converter",
+    name: "Auth-Org",
     description:
-      "Eco-Converter is an tool that employs a variety of everyday life conversion units. Designed to engage and enlighten, it aims to raise awareness about the importance of conserving water by illustrating how everyday activities impact water usage.",
+      "Auth-Org is an application that enables secure authentication, as well as the creation of organizations from a secure space, followed by the addition of members using their email addresses.",
     tags: [
       {
-        name: "HTML",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Flask",
         color: "green-text-gradient",
       },
       {
-        name: "Vanilla JavaScript",
+        name: "React",
         color: "pink-text-gradient",
       },
+      {
+        name: "PostgreSQL",
+        color: "orange-text-gradient",
+      },
     ],
-    image: converter,
+    image: authorg,
     source_code_link: "https://github.com/",
   },
   // {
