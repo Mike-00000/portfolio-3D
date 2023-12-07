@@ -33,6 +33,7 @@ import {
   emma,
   converter,
   authorg,
+  planets,
   jobit,
   tripguide,
   threejs,
@@ -308,7 +309,7 @@ const projects = [
       "A text-based adventure game in which you play the role of a heroine in a scenario over which you have complete control. As the story unfolds, you'll be able to choose what happens next. The scenario, illustrations, and music will adapt to your choices.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
@@ -323,27 +324,6 @@ const projects = [
     image: emma,
     source_code_link: "https://github.com/",
   },
-  // {
-  //   name: "Eco-Converter",
-  //   description:
-  //     "Eco-Converter is an tool that employs a variety of everyday life conversion units. Designed to engage and enlighten, it aims to raise awareness about the importance of conserving water by illustrating how everyday activities impact water usage.",
-  //   tags: [
-  //     {
-  //       name: "HTML",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "CSS",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Vanilla JavaScript",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: converter,
-  //   source_code_link: "https://github.com/",
-  // },
   {
     name: "Auth-Org",
     description:
@@ -369,27 +349,48 @@ const projects = [
     image: authorg,
     source_code_link: "https://github.com/",
   },
-  // {
-  //   name: "Car Rent",
-  //   description:
-  //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: carrent,
-  //   source_code_link: "https://github.com/",
-  // },
+    {
+    name: "Eco-Converter",
+    description:
+      "Eco-Converter is an tool that employs a variety of everyday life conversion units. Designed to engage and enlighten, it aims to raise awareness about the importance of conserving water by illustrating how everyday activities impact water usage.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vanilla JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: converter,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Planets",
+    description:
+      "An interactive educational platform providing in-depth knowledge about our solar system's planets, offering an engaging and informative experience for learners of all ages to expand their understanding of these celestial bodies.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: planets,
+    source_code_link: "https://github.com/",
+  },
   // {
   //   name: "Job IT",
   //   description:

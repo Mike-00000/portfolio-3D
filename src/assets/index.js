@@ -47,6 +47,7 @@ import einstein from "./Einstein.png";
 import emma from "./CurseOfEmma.png";
 import converter from "./EcoConverter.png";
 import authorg from "./authprint.JPG";
+import planets from "./Planets.JPG";
 
 export {
   logo,
@@ -87,6 +88,7 @@ export {
   emma,
   converter,
   authorg,
+  planets,
   python,
   django,
   elephant,
