@@ -48,6 +48,7 @@ import emma from "./CurseOfEmma.png";
 import converter from "./EcoConverter.png";
 import authorg from "./authprint.JPG";
 import planets from "./Planets.JPG";
+import iphone3d from "./Iphone3d.JPG";
 
 export {
   logo,
@@ -89,6 +90,7 @@ export {
   converter,
   authorg,
   planets,
+  iphone3d,
   python,
   django,
   elephant,

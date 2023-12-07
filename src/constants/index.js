@@ -34,6 +34,7 @@ import {
   converter,
   authorg,
   planets,
+  iphone3d,
   jobit,
   tripguide,
   threejs,
@@ -391,27 +392,31 @@ const projects = [
     image: planets,
     source_code_link: "https://github.com/",
   },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "3D Animation Iphone",
+    description:
+      "A 3D Animation using 3D models to display them on the website with WebGi. Then, using React and GSAP to create a 3D animation of that model. Finally, when clicking on 'Try me,' the user also has the ability to manipulate the iPhone in 3D from every angle.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "WebGi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: iphone3d,
+    source_code_link: "https://github.com/",
+  },
   // {
   //   name: "Trip Guide",
   //   description:
