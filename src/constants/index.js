@@ -350,73 +350,73 @@ const projects = [
     image: authorg,
     source_code_link: "https://github.com/",
   },
-    {
-    name: "Eco-Converter",
-    description:
-      "Eco-Converter is an tool that employs a variety of everyday life conversion units. Designed to engage and enlighten, it aims to raise awareness about the importance of conserving water by illustrating how everyday activities impact water usage.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Vanilla JavaScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: converter,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Planets",
-    description:
-      "An interactive educational platform providing in-depth knowledge about our solar system's planets, offering an engaging and informative experience for learners of all ages to expand their understanding of these celestial bodies.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "PostgreSQL",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: planets,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "3D Animation Iphone",
-    description:
-      "A 3D Animation using 3D models to display them on the website with WebGi. Then, using React and GSAP to create a 3D animation of that model. Finally, when clicking on 'Try me,' the user also has the ability to manipulate the iPhone in 3D from every angle.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Three.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "WebGi",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "GSAP",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: iphone3d,
-    source_code_link: "https://github.com/",
-  },
+  //   {
+  //   name: "Eco-Converter",
+  //   description:
+  //     "Eco-Converter is an tool that employs a variety of everyday life conversion units. Designed to engage and enlighten, it aims to raise awareness about the importance of conserving water by illustrating how everyday activities impact water usage.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Vanilla JavaScript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: converter,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Planets",
+  //   description:
+  //     "An interactive educational platform providing in-depth knowledge about our solar system's planets, offering an engaging and informative experience for learners of all ages to expand their understanding of these celestial bodies.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Node.js",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "PostgreSQL",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: planets,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "3D Animation Iphone",
+  //   description:
+  //     "A 3D Animation using 3D models to display them on the website with WebGi. Then, using React and GSAP to create a 3D animation of that model. Finally, when clicking on 'Try me,' the user also has the ability to manipulate the iPhone in 3D from every angle.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Three.js",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "WebGi",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "GSAP",
+  //       color: "orange-text-gradient",
+  //     },
+  //   ],
+  //   image: iphone3d,
+  //   source_code_link: "https://github.com/",
+  // },
   // {
   //   name: "Trip Guide",
   //   description:
