@@ -45,6 +45,7 @@ import {
   tailwindcss,
   polygon,
   threew,
+  carshow,
 } from "../assets";
 
 export const navLinks = [
@@ -158,6 +159,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Full Stack Developer (Internship) ",
+    company_name: "Consultant-AI (Tel-Aviv)",
+    icon: logo,
+    iconBg: "#383E56",
+    date: "December 2023 - February 2024",
+    points: [
+      "Led the development of an innovative Multi-Bot AI Assistant, leveraging OpenAI's GPT language model.",
+      "Implemented an architecture, combining a Flask backend and interactions with the OpenAI API, and a React frontend for an intuitive user interface.",
+      "Successfully integrated the Twilio platform, extending the AI assistant's capabilities to WhatsApp messages.",
+    ],
+  },
+  {
     title: "Polyvalent worker",
     company_name: "Saveurs & Délices (Netanya)",
     icon: logo,
@@ -181,18 +194,18 @@ const experiences = [
       "Led and motivated the sales team, contributing to their professional development and achieving targets.",
     ],
   },
-  {
-    title: "Financial Products Advisor",
-    company_name: "Aviva (Paris)",
-    icon: logo,
-    iconBg: "#383E56",
-    date: "March 2012 - June 2013",
-    points: [
-      "Actively developed a client portfolio of individuals and professionals through targeted prospecting strategies.",
-      "Successfully proposed and sold savings, investment, and provident solutions, meeting diverse financial needs of clients.",
-      "Managed both commercial and administrative aspects, ensuring smooth operations.",
-    ],
-  },
+  // {
+  //   title: "Financial Products Advisor",
+  //   company_name: "Aviva (Paris)",
+  //   icon: logo,
+  //   iconBg: "#383E56",
+  //   date: "March 2012 - June 2013",
+  //   points: [
+  //     "Actively developed a client portfolio of individuals and professionals through targeted prospecting strategies.",
+  //     "Successfully proposed and sold savings, investment, and provident solutions, meeting diverse financial needs of clients.",
+  //     "Managed both commercial and administrative aspects, ensuring smooth operations.",
+  //   ],
+  // },
   {
     title: "Sales Manager",
     company_name: "Santeo (Paris)",
@@ -288,22 +301,43 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Einstein Tribute",
+    name: "3D Car Show",
     description:
-      "A website in tribute to Einstein, offering a unique interactive journey through his life and discoveries. You can learn many interesting facts about physics by clicking on the headings in the sidebar, or by hovering over photos of Einstein.",
+      "An interactive 3D car show with a neon-like style and lighting effects, that lets you contemplate a model 3D car driving slowly in a 3D environment, and where you can turn the camera around the car as well as zoom in and out.",
     tags: [
       {
-        name: "CSS",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "HTML",
+        name: "Three.js",
         color: "green-text-gradient",
       },
+      {
+        name: "React Three Fiber",
+        color: "pink-text-gradient",
+      },
     ],
-    image: einstein,
+    image: carshow,
     source_code_link: "https://github.com/",
   },
+  // {
+  //   name: "Einstein Tribute",
+  //   description:
+  //     "A website in tribute to Einstein, offering a unique interactive journey through his life and discoveries. You can learn many interesting facts about physics by clicking on the headings in the sidebar, or by hovering over photos of Einstein.",
+  //   tags: [
+  //     {
+  //       name: "CSS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "HTML",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: einstein,
+  //   source_code_link: "https://github.com/",
+  // },
   {
     name: "The Curse of Emma",
     description:

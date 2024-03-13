@@ -49,6 +49,7 @@ import converter from "./EcoConverter.png";
 import authorg from "./authprint.JPG";
 import planets from "./Planets.JPG";
 import iphone3d from "./Iphone3d.JPG";
+import carshow from "./3DCarShow.jpg";
 
 export {
   logo,
@@ -91,6 +92,7 @@ export {
   authorg,
   planets,
   iphone3d,
+  carshow,
   python,
   django,
   elephant,
