@@ -46,6 +46,7 @@ import {
   polygon,
   threew,
   carshow,
+  iphone15pro,
 } from "../assets";
 
 export const navLinks = [
@@ -300,27 +301,6 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "3D Car Show",
-    description:
-      "An interactive 3D car show with a neon-like style and lighting effects, that lets you contemplate a model 3D car driving slowly in a 3D environment, and where you can turn the camera around the car as well as zoom in and out.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Three.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "React Three Fiber",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carshow,
-    source_code_link: "https://github.com/",
-  },
   // {
   //   name: "Einstein Tribute",
   //   description:
@@ -360,28 +340,75 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Auth-Org",
+    name: "iPhone 15 Pro Titanium",
     description:
-      "Auth-Org is an application that enables secure authentication, as well as the creation of organizations from a secure space, followed by the addition of members using their email addresses.",
+      "An iPhone 15 Pro Titanium website clone with advanced features such as dynamic animations with scroll triggers, a video carousel with progress bars, as well as animated 3D iPhone models with various lighting and viewing configurations.",
     tags: [
       {
-        name: "Python",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "Flask",
+        name: "Vite",
         color: "green-text-gradient",
       },
       {
-        name: "React",
+        name: "Gsap",
         color: "pink-text-gradient",
       },
       {
-        name: "PostgreSQL",
+        name: "Three.js",
         color: "orange-text-gradient",
       },
     ],
-    image: authorg,
+    image: iphone15pro,
+    source_code_link: "https://github.com/",
+  },
+
+  // {
+  //   name: "Auth-Org",
+  //   description:
+  //     "Auth-Org is an application that enables secure authentication, as well as the creation of organizations from a secure space, followed by the addition of members using their email addresses.",
+  //   tags: [
+  //     {
+  //       name: "Python",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Flask",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "React",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "PostgreSQL",
+  //       color: "orange-text-gradient",
+  //     },
+  //   ],
+  //   image: authorg,
+  //   source_code_link: "https://github.com/",
+  // },
+  {
+    name: "3D Car Show",
+    description:
+      "An interactive 3D car show with a neon-like style and lighting effects, that lets you contemplate a model 3D car driving slowly in a 3D environment, and where you can turn the camera around the car as well as zoom in and out.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React Three Fiber",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carshow,
     source_code_link: "https://github.com/",
   },
   //   {
