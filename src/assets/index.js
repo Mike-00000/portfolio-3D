@@ -51,6 +51,9 @@ import planets from "./Planets.JPG";
 import iphone3d from "./Iphone3d.JPG";
 import carshow from "./3DCarShow.jpg";
 import iphone15pro from "./iphone15pro.jpg";
+import imagegenerator from "./AIImageGenerator.png";
+import ailogo3dshirt from "./AILogo3DShirt.png";
+import chatbotgpt from "./ChatbotGPT.png";
 
 export {
   logo,
@@ -95,6 +98,9 @@ export {
   iphone3d,
   iphone15pro,
   carshow,
+  imagegenerator,
+  ailogo3dshirt,
+  chatbotgpt,
   python,
   django,
   elephant,

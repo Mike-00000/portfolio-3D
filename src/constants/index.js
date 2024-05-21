@@ -47,6 +47,9 @@ import {
   threew,
   carshow,
   iphone15pro,
+  imagegenerator,
+  ailogo3dshirt,
+  chatbotgpt,
 } from "../assets";
 
 export const navLinks = [
@@ -301,30 +304,13 @@ const testimonials = [
 ];
 
 const projects = [
-  // {
-  //   name: "Einstein Tribute",
-  //   description:
-  //     "A website in tribute to Einstein, offering a unique interactive journey through his life and discoveries. You can learn many interesting facts about physics by clicking on the headings in the sidebar, or by hovering over photos of Einstein.",
-  //   tags: [
-  //     {
-  //       name: "CSS",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "HTML",
-  //       color: "green-text-gradient",
-  //     },
-  //   ],
-  //   image: einstein,
-  //   source_code_link: "https://github.com/",
-  // },
   {
-    name: "The Curse of Emma",
+    name: "AI Image Generator",
     description:
-      "A text-based adventure game in which you play the role of a heroine in a scenario over which you have complete control. As the story unfolds, you'll be able to choose what happens next. The scenario, illustrations, and music will adapt to your choices.",
+      "My AI Image generator is a web application that leverages OpenAI's DALL·E 3 via its API, in conjunction with the MERN stack (MongoDB, Express.js, React.js, Node.js) to generate stunning original images from textual descriptions.",
     tags: [
       {
-        name: "React",
+        name: "React+Vite",
         color: "blue-text-gradient",
       },
       {
@@ -332,12 +318,15 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "PostgreSQL",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
+      {
+        name: "API",
+        color: "orange-text-gradient",
+      },
     ],
-    image: emma,
-    source_code_link: "https://github.com/",
+    image: imagegenerator,
   },
   {
     name: "iPhone 15 Pro Titanium",
@@ -364,7 +353,112 @@ const projects = [
     image: iphone15pro,
     source_code_link: "https://github.com/",
   },
-
+  {
+    name: "3D Car Show",
+    description:
+      "An interactive 3D car show with a neon-like style and lighting effects, that lets you contemplate a model 3D car driving slowly in a 3D environment, and where you can turn the camera around the car as well as zoom in and out.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React Three Fiber",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carshow,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "AI-Powered 3D Website",
+    description:
+      "The AI-Powered 3D Product Website is an advanced platform that showcases a 3D shirt using interactive 3D graphics. Built with React and ThreeJS, this site allows users to explore and customize the shirt with various colors, upload an image, or generate and apply a logo through DALLE AI.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TailwindCSS ",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: ailogo3dshirt,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "The Curse of Emma",
+    description:
+      "A text-based adventure game in which you play the role of a heroine in a scenario over which you have complete control. As the story unfolds, you'll be able to choose what happens next. The scenario, illustrations, and music will adapt to your choices.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: emma,
+    source_code_link: "https://github.com/",
+  },
+ 
+  {
+    name: "AI Powered Chatbot GPT",
+    description:
+      "The AI-Powered Chatbot Website is an interactive platform built with React, utilizing the OpenAI gpt-3.5-turbo model to create a responsive and intelligent chatbot. This site allows users to engage in real-time conversations with the ChatGPT API, making it a versatile tool for various applications.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ChatGPT API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatbotgpt,
+    source_code_link: "https://github.com/",
+  },
+  // {
+  //   name: "Einstein Tribute",
+  //   description:
+  //     "A website in tribute to Einstein, offering a unique interactive journey through his life and discoveries. You can learn many interesting facts about physics by clicking on the headings in the sidebar, or by hovering over photos of Einstein.",
+  //   tags: [
+  //     {
+  //       name: "CSS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "HTML",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: einstein,
+  //   source_code_link: "https://github.com/",
+  // },
   // {
   //   name: "Auth-Org",
   //   description:
@@ -390,27 +484,6 @@ const projects = [
   //   image: authorg,
   //   source_code_link: "https://github.com/",
   // },
-  {
-    name: "3D Car Show",
-    description:
-      "An interactive 3D car show with a neon-like style and lighting effects, that lets you contemplate a model 3D car driving slowly in a 3D environment, and where you can turn the camera around the car as well as zoom in and out.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Three.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "React Three Fiber",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carshow,
-    source_code_link: "https://github.com/",
-  },
   //   {
   //   name: "Eco-Converter",
   //   description:
@@ -476,27 +549,6 @@ const projects = [
   //     },
   //   ],
   //   image: iphone3d,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
   //   source_code_link: "https://github.com/",
   // },
 ];
