@@ -1,3 +1,4 @@
+import { redirect } from "react-router-dom";
 import {
   mobile,
   backend,
@@ -327,6 +328,8 @@ const projects = [
       },
     ],
     image: imagegenerator,
+    source_code_link: "https://github.com/Mike-00000/Mike-00000-dalle-3-image-generator/",
+    redirect: "https://my-ai-image-generator.netlify.app/",
   },
   {
     name: "iPhone 15 Pro Titanium",
@@ -351,7 +354,8 @@ const projects = [
       },
     ],
     image: iphone15pro,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Mike-00000/Apple-Website/",
+    redirect: "https://iphone15pro-titanium.netlify.app/",
   },
   {
     name: "3D Car Show",
@@ -372,7 +376,8 @@ const projects = [
       },
     ],
     image: carshow,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Mike-00000/3D-car-show/",
+    redirect: "https://3d-carshow.netlify.app/",
   },
   {
     name: "AI-Powered 3D Website",
@@ -397,7 +402,8 @@ const projects = [
       },
     ],
     image: ailogo3dshirt,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Mike-00000/AI-Powered-3D-Website/",
+    redirect: "https://ai-powered-3d-site.netlify.app/",
   },
   {
     name: "The Curse of Emma",
@@ -418,7 +424,7 @@ const projects = [
       },
     ],
     image: emma,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Mike-00000/Final_Project/",
   },
  
   {
@@ -440,7 +446,8 @@ const projects = [
       },
     ],
     image: chatbotgpt,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Mike-00000/chatbotGPT/",
+    redirect: "https://my-chat-bot-gpt.netlify.app/",
   },
   // {
   //   name: "Einstein Tribute",
