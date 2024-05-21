@@ -358,28 +358,6 @@ const projects = [
     redirect: "https://iphone15pro-titanium.netlify.app/",
   },
   {
-    name: "3D Car Show",
-    description:
-      "An interactive 3D car show with a neon-like style and lighting effects, that lets you contemplate a model 3D car driving slowly in a 3D environment, and where you can turn the camera around the car as well as zoom in and out.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Three.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "React Three Fiber",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carshow,
-    source_code_link: "https://github.com/Mike-00000/3D-car-show/",
-    redirect: "https://3d-carshow.netlify.app/",
-  },
-  {
     name: "AI-Powered 3D Website",
     description:
       "The AI-Powered 3D Product Website is an advanced platform that showcases a 3D shirt using interactive 3D graphics. Built with React and ThreeJS, this site allows users to explore and customize the shirt with various colors, upload an image, or generate and apply a logo through DALLE AI.",
@@ -404,6 +382,28 @@ const projects = [
     image: ailogo3dshirt,
     source_code_link: "https://github.com/Mike-00000/AI-Powered-3D-Website/",
     redirect: "https://ai-powered-3d-site.netlify.app/",
+  },
+  {
+    name: "3D Car Show",
+    description:
+      "An interactive 3D car show with a neon-like style and lighting effects, that lets you contemplate a model 3D car driving slowly in a 3D environment, and where you can turn the camera around the car as well as zoom in and out.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React Three Fiber",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carshow,
+    source_code_link: "https://github.com/Mike-00000/3D-car-show/",
+    redirect: "https://3d-carshow.netlify.app/",
   },
   {
     name: "The Curse of Emma",

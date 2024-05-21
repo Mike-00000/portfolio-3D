@@ -66,6 +66,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 }
 
 const Works = () => {
+  const isMobile = window.innerWidth <= 768;
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -83,7 +84,7 @@ const Works = () => {
       </div>
 
       <div className="mt-20 flex flex-wrap justify-center gap-7">
-        {projects.map((project, index) => (
+        {projects.slice(0, isMobile ? 3 : projects.length).map((project, index) => (
           <ProjectCard 
             key={`project-${index}`}
             index={index}
